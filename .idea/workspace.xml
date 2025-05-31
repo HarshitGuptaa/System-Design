@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18b79e92-1f94-4234-ade8-7450fa5f8917" name="Changes" comment="RMQ" />
+    <list default="true" id="18b79e92-1f94-4234-ade8-7450fa5f8917" name="Changes" comment="SOLID.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +27,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/harshitgupta/Documents/System Design"
   }
@@ -63,11 +64,20 @@
       <option name="project" value="LOCAL" />
       <updated>1748670362687</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SOLID.java">
+      <option name="closed" value="true" />
+      <created>1748672439847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748672439847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RMQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="RMQ" />
+    <MESSAGE value="SOLID.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOLID.java" />
   </component>
 </project>
