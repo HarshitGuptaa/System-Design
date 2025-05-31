@@ -1,0 +1,16 @@
+RMQ
+
+- On application start, @Bean is there to get the consumer group in pom.xml and subscribe to all topics listed in it.
+- We can send and consume from these topics and can add more topics in this
+
+leaderboardConsumer:           
+    enable: true
+    consumerGroup:roomLeaderboardConsumer 
+    topic: leaderboard_prize_topic
+
+Here leaderboardConsumer is configuration file and it has consumer group in it which has various topics for this group
+
+Keys in MQs helps in- 
+- Processing messages in order
+- Remove duplicates
+- Quick message search using Keys as they are used as indexes
