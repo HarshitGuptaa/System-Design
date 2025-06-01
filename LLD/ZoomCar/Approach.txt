@@ -1,0 +1,9 @@
+ZoomCar - Car rental Service
+1. User comes and registers on app and add location
+2. based on location Rental Stores are shown. - Store controller to add stores in DB
+3. user selects desired Store.
+4. the Store then shows different Vehicles - Vehicle controller to add in DB
+5. user selects a Vehicle 
+6. List of available dates shown to user 
+7. user choose a date and do Booking
+6. user then do Payment for the booking

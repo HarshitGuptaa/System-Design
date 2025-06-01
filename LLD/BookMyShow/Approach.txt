@@ -1,0 +1,7 @@
+User registers on platform and fill information with city
+according to City all running Movies are shown
+each Movie has many Theatre
+each Theatre will have Shows on diff times
+each Show will have Seats
+user choose Seat and do Payment
+Booking confirmed after payment
