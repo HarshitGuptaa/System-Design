@@ -1,0 +1,25 @@
+Web Socket
+1. Client Request
+    - Client sends HTTP request with Upgrade: websocket header
+    - Includes Sec-WebSocket-Key for security
+2. Server Validation
+    * Checks for Sec-WebSocket-Key header
+    * Verifies protocol version
+
+3. Server Response
+    * Sends 101 Switching Protocols response
+    * Includes Sec-WebSocket-Accept header
+
+4. Connection Upgrade
+    * TCP connection is upgraded to WebSocket
+
+Websocket Message flow - 
+
+1. Server receives web socket msg then converts to bytes and then to MessageWrapper ProtoBuf
+2. channelRead called after decoding
+    1. It checks login
+    2. Rate limiting
+    3. Route message to respective service based on messageId
+        1. innerservice.get(msgId).onMessage()
+        2. onMessage is in each service to call handler based on msgId
+
